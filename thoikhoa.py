@@ -1,5 +1,12 @@
 from guizero import App, Text, Box
 
+"""
+Chú ý:
+-TNHN : Trải nghiệm hướng nghiệp
+-GDCD : Giáo dục công dân
+-GDĐP : Giáo dục địa phương
+"""
+
 app = App("Thời khóa biểu", width=900, height=300)
 big_box1 = Box(app, width=150, height=300, align="left")
 box1_1 = Box(big_box1, width=150, height=50)
